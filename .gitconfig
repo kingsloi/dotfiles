@@ -1,0 +1,30 @@
+[core]
+	excludesfile = /Users/kingsley/.gitignore_global
+	autocrlf = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[apply]
+	# Detect whitespace errors when applying a patch
+	whitespace = fix
+[user]
+	name = Kingsley Raspe
+	email = kingsley.raspe@googlemail.com
+[url "https://"]
+	insteadOf = git://
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
