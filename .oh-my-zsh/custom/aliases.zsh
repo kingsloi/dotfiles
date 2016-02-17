@@ -4,7 +4,7 @@ alias sshkey="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'Copied to clipboard.'"
 alias pyserver='open http://localhost:8000 && python -m SimpleHTTPServer'
 alias refresh='source ~/.zshrc; echo "Reloaded .zshrc."'
 alias artisan='php artisan'
-alias composer="php /usr/bin/composer.phar"
+alias composer='/usr/local/bin/composer.phar'
 alias oo='open .'
 
 # Add a spacer to the dock
