@@ -2,6 +2,7 @@
 alias s="subl ."
 alias sshkey="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'Copied to clipboard.'"
 alias pyserver='open http://localhost:8000 && python -m SimpleHTTPServer'
+alias phpserver='sudo php -S 127.0.0.1:80 -t .'
 alias refresh='source ~/.zshrc; echo "Reloaded .zshrc."'
 alias artisan='php artisan'
 alias composer='/usr/local/bin/composer.phar'
