@@ -17,7 +17,7 @@ alias vsus="vagrant suspend"
 alias vhalt="vagrant halt"
 alias vkill="vagrant destroy"
 alias laravelvm="ssh vagrant@127.0.0.1 -p 2222"
-alias homestead="~/.composer/vendor/bin/homestead"
+alias homestead="cd ~/Homestead && vagrant $*"
 
 # ---- FANCY DOTFILES-IMPORTED ALIASES ----------------
 

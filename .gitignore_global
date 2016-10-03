@@ -18,3 +18,5 @@ Thumbs.db
 npm-debug.log
 node_modules
 storage/uploads
+assets/bower_components
+wp-content/themes/halftone/php/cache
