@@ -20,3 +20,5 @@ node_modules
 storage/uploads
 assets/bower_components
 wp-content/themes/halftone/php/cache
+public/assets
+public/css
